@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <title>Countdown Timer</title> 
+       <link rel="stylesheet" type="text/css" href="./css/style.css">    
+    </head>
+    <body>
+        <div class="enterDate">
+            <h1>Countdown Timer</h1>
+            <input id="getDate" type="date"/>
+            <button class="btnStyle" onclick="showTimer()">Show Timer</button>
+        </div>
+        <div id="showTime">
+            <div>
+                <span id="days"></span>
+                <div class="text">Days</div>
+            </div>
+            <div>
+                <span id="hours"></span>
+                <div class="text">Hours</div>
+            </div>
+            <div>
+                <span id="minutes"></span>
+                <div class="text">Minutes</div>
+            </div>
+            <div>
+                <span id="seconds"></span>
+                <div class="text">Seconds</div>
+            </div>
+        </div>
+        <script src="./js/main.js"></script>
+    </body>
+</html>
