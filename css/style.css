@@ -44,6 +44,7 @@ input:focus {
     border-radius: 6px;
     text-align: center;
     cursor: pointer;
+    outline: none;
 }
 
 .btnStyle:hover {
