@@ -68,7 +68,7 @@ input:focus {
     height: 130px;  
 }
 
-#showTime div > span {
+#days, #hours, #minutes, #seconds {
     padding: 20px;
     margin-top: 15px;
     margin-bottom: 10px;
