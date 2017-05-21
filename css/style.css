@@ -51,19 +51,19 @@ input:focus {
 }
 
 #showTime {
-	color: #2a222a;
-	display: inline-block;
+    color: #2a222a;
+    display: inline-block;
     font-weight: 100;
-	text-align: center;
-	font-size: 30px;
+    text-align: center;
+    font-size: 30px;
     margin: 50px;
 }
 
 #showTime > div {
     padding: 10px;
-	border-radius: 3px;
-	background: #d3c5d3;
-	display: inline-block;
+    border-radius: 3px;
+    background: #d3c5d3;
+    display: inline-block;
     width: 130px;
     height: 130px;  
 }
@@ -72,9 +72,9 @@ input:focus {
     padding: 20px;
     margin-top: 15px;
     margin-bottom: 10px;
-	border-radius: 3px;
-	background: #bda8bd;
-	display: inline-block;
+    border-radius: 3px;
+    background: #bda8bd;
+    display: inline-block;
     width: 30px;
     height: 30px;
 }
