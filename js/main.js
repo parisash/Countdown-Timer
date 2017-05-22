@@ -1,4 +1,5 @@
 function showTimer() {
+document.getElementById("showTime").style.display = "block";
 var endDate = new Date(document.getElementById("getDate").value).getTime();
 var updateDate = setInterval(function() {updateTimer()} ,1000);
 
